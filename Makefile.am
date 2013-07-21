@@ -2,8 +2,8 @@ AUTOMAKE_OPTIONS = foreign
 
 sbin_PROGRAMS = iscsi-name
 
-iscsi_name_SOURCES = iscsi-name.c md5.c md5.h
+iscsi_name_SOURCES = iscsi-name.c md5.c
 
-#include_HEADERS = hyperv.h
+include_HEADERS = md5.h
 
 ACLOCAL_AMFLAGS = -I m4
